@@ -1,0 +1,5 @@
+[[redirects]]	asd
+  from = "https://flamboyant-kalam-2e9ecc.netlify.com/*"	
+  to = "https://kanglu.me/:splat"	
+  status = 301	
+  force = true
