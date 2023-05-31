@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  24 MAY 2023 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  31 MAY 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,7 +627,7 @@ exlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/202
 2/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dis
 t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
 e1/public/marvosym/marvosym.pfb>
-Output written on KangLu.pdf (4 pages, 296783 bytes).
+Output written on KangLu.pdf (4 pages, 296777 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
