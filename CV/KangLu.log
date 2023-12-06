@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  29 NOV 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  6 DEC 2023 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,21 +593,27 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
 ) [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (8.27583pt too wide) in paragraph at lines 139--140
+[]$[]$\T1/lmr/m/n/10.95 (-20) , Weiqiang Wang, and Weinan Zhang, \T1/lmr/m/it/1
+0.95 (-20) A Drin-feld type pre-sen-ta-tion of twisted Yan-gians\T1/lmr/m/n/10.
+95 (-20) , [][]arXiv:2308.12254[][]. 
+ []
+
+[2]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [3] [4]
-[5] (./KangLu.aux)
+ [3] [4] [5] (./KangLu.aux)
 Package rerunfilecheck Info: File `KangLu.out' has not changed.
 (rerunfilecheck)             Checksum: B04B61D6D31E73E968B57DEE594CD573;1459.
  ) 
 Here is how much of TeX's memory you used:
- 13466 strings out of 478268
- 222270 string characters out of 5846347
+ 13475 strings out of 478268
+ 222360 string characters out of 5846347
  658995 words of memory out of 5000000
  31271 multiletter control sequences out of 15000+600000
- 539730 words of font info for 150 fonts, out of 8000000 for 9000
+ 540155 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,83p,1003b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -630,10 +636,10 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 323657 bytes).
+Output written on KangLu.pdf (5 pages, 324059 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
  34913 words of extra memory for PDF output out of 35830 (max. 10000000)
 
