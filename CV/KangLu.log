@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  6 DEC 2023 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  6 DEC 2023 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,7 +594,7 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 ) [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.27583pt too wide) in paragraph at lines 139--140
+Overfull \hbox (8.27583pt too wide) in paragraph at lines 135--136
 []$[]$\T1/lmr/m/n/10.95 (-20) , Weiqiang Wang, and Weinan Zhang, \T1/lmr/m/it/1
 0.95 (-20) A Drin-feld type pre-sen-ta-tion of twisted Yan-gians\T1/lmr/m/n/10.
 95 (-20) , [][]arXiv:2308.12254[][]. 
@@ -636,7 +636,7 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 324196 bytes).
+Output written on KangLu.pdf (5 pages, 324203 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
