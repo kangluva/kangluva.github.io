@@ -1,0 +1,204 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{geometry}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\pagestyle{empty}
+\usepackage{graphicx,fouriernc}
+\usepackage{fancyhdr, lastpage, bbding, pmboxdraw}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+\definecolor{red}{rgb}{.98,0,0}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkred,citecolor=darkred,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{ \fancyplain{}{Course Name} }
+%\chead{ \fancyplain{}{} }
+\rhead{ \fancyplain{}{\today} }
+%\rfoot{\fancyplain{}{page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[RO, LE] {page \thepage\ of \pageref{LastPage} }
+\thispagestyle{plain}
+
+%%%%%%%%%%%% LISTING %%%
+\usepackage{listings}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\usepackage{verbatim} % used to display code
+\usepackage{fancyvrb}
+\usepackage{acronym}
+\usepackage{amsthm}
+\VerbatimFootnotes % Required, otherwise verbatim does not work in footnotes!
+
+
+
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.62,0.57,0.23,0}
+\definecolor{lightlightgray}{gray}{0.93}
+
+
+
+\lstset{
+%language=bash,                          % Code langugage
+basicstyle=\ttfamily,                   % Code font, Examples: \footnotesize, \ttfamily
+keywordstyle=\color{OliveGreen},        % Keywords font ('*' = uppercase)
+commentstyle=\color{gray},              % Comments font
+numbers=left,                           % Line nums position
+numberstyle=\tiny,                      % Line-numbers fonts
+stepnumber=1,                           % Step between two line-numbers
+numbersep=5pt,                          % How far are line-numbers from code
+backgroundcolor=\color{lightlightgray}, % Choose background color
+frame=none,                             % A frame around the code
+tabsize=2,                              % Default tab size
+captionpos=t,                           % Caption-position = bottom
+breaklines=true,                        % Automatic line breaking?
+breakatwhitespace=false,                % Automatic breaks only at whitespace?
+showspaces=false,                       % Dont make spaces visible
+showtabs=false,                         % Dont make tabls visible
+columns=flexible,                       % Column format
+morekeywords={__global__, __device__},  % CUDA specific keywords
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+{\Large \textsc{Math 2310-100 Calculus III}}
+\end{center}
+\begin{center}
+Spring 2024
+\end{center}
+%\date{September 26, 2014}
+
+\begin{center}
+\rule{6in}{0.4pt}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{llcccll}
+\textbf{Instructor:} & Kang Lu & & &  & \textbf{Time:} & TuTh 2--3:15PM \\
+\textbf{Email:} &  \href{mailto:kang.lu@virginia.edu}{Kang.Lu@Virginia.edu} & & & & \textbf{Venue:} & New Cabell Hall 489
+\end{tabular}
+\end{minipage}
+\rule{6in}{0.4pt}
+\end{center}
+\vspace{.5cm}
+\setlength{\unitlength}{1in}
+\renewcommand{\arraystretch}{2}
+
+% \noindent\textbf{Course Pages:} \begin{enumerate}
+% \item \url{http://yourWebPage1.com/teaching}
+% \item \url{http://yourWebPage2.com/teaching}
+% \end{enumerate}
+
+\vskip.15in
+\noindent\textbf{Office Hours:} Wednesdays 2:00 -- 3:00PM and Thursdays 12:30 -- 1:30PM, or by appointment. My office is located at \underline{Kerchof Hall 229}.
+
+\vskip.15in
+\noindent\textbf{Textbook:} %\footnotemark
+The text is James Stewart’s Multivariable Calculus Early Transcendentals, ninth edition, Cengage Learning. Note: earlier editions of this text differ in some sections and most exercises.
+
+
+% \footnotetext{Downloadable ebook versions are available on AeLP.}
+
+\vskip.15in
+\noindent\textbf{Objectives:}  In Math 2310 we study the vector geometry of 3 dimensions, scalar and vector functions of 1, 2 and 3 variables, partial derivatives, directional derivatives, multiple integrals, cylindrical and spherical coordinates, parameterized curves and surfaces, gradient, divergence, curl, line and surface integrals, and the theorems of Gauss, Green, and Stokes. The contents will cover Chapters 12–16 of the textbook.
+
+Students are advised that this course moves very quickly. It is very important to stay abreast of the current topics so as not to fall behind. Also note that while the material at the beginning of the course is comparatively elementary, the later topics will be entirely novel and require substantial effort to master
+
+\vskip.15in
+\noindent\textbf{Prerequisites:}
+Cal I, II or equivalent courses.
+
+
+% \vspace*{.15in}
+
+% \noindent \textbf{Tentative Course Outline:}
+% \begin{center} 
+% \begin{minipage}{5in}
+% \begin{flushleft}
+% %Chapter 1 \dotfill ~$\approx$ 3 days \\
+% {\color{darkgreen}{\Rectangle}} ~A little of probability theory and graph theory	
+% \end{flushleft}
+% \end{minipage}
+% \end{center}
+
+\vspace*{.15in}
+\noindent\textbf{Grading Policy:} Homework (25\%), Quizzes (20\%),  Midterms (30\%), Final (25\%). %Four Projects (40\% = 4 * 10\%)
+
+There will be homeworks from WebAssign and written homeworks. The \textbf{class key} for signing up WebAssign will be given at the beginning of the semester. The written Homeworks are subset of problems from WebAssign which should be submitted to GradeScope. Typically, there will be 3 problems for every week. Two lowest written homeworks will be dropped for final grade.
+
+There will be 12 quizzes in total that will be given in class and discussion session. The precise dates for quizzes can be found on Canvas. Two lowest quizzes will be dropped for final grade.
+
+Your final grade will be based on weekly assignments, quizzes, two midterm exams and a final exam. We will slightly de-emphasize counting homeworks towards your final grade, since this is the place you are allowed to make mistakes, and get them clarified.
+
+\vskip.15in
+\noindent\textbf{Important Dates:}
+\begin{center} \begin{minipage}{3.8in}
+\begin{flushleft}
+Midterm 1       \dotfill ~02/22/2024\\
+Midterm 2       \dotfill ~04/04/2024\\
+Final      \dotfill ~ 05/10/2024  \\
+%Project Deadline \dotfill ~Month Day \\
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+% \vskip.15in
+% \noindent\textbf{Course Policy:}  
+% \begin{itemize}
+% \item Please sign up for AeLP. I will confirm your enrollment for the course, then you will be able to see the course page.
+
+% \end{itemize}
+
+% \vskip.15in
+% \noindent\textbf{Class Policy:}  
+% \begin{itemize}
+% \item Regular attendance is essential and expected.
+% \end{itemize}
+
+\vskip.15in
+\noindent\textbf{Advice:}  
+\underline{\textit{You are required to attend all the lectures and discussion sessions}}. Since our lectures may differ from the textbook, and the schedule might change in occasion. As a general principle for taking math courses, \textit{take twice the amount of time of lectures to review what you learned in class, and do a lot of exercises}! What we hope to achieve is not only the knowledge but also the ability to think logically and independently. Feel free to let me know if some points are unclear to you and ask for more explanations. Any suggestions about the teaching will be warmly welcomed.
+
+In case you have a conflict with any of the exams, please contact me as soon as possible and at least two weeks before the exam. I will schedule a make up exam for you in my office. In the case of an emergency evacuation during the midterm or the final exam, leave your exams in the room, face down, before evacuating. Under no circumstances should you take the exam with you.
+
+\vskip.15in
+\noindent\textbf{Honor Code:}  
+The University of Virginia Honor Code applies to this class and is taken seriously. Any honor code violations will be referred to the Honor Committee. Upon submission of each assignments in this class you
+pledge to abide by the rules of UVA, of this course, and of the specific assignment.
+
+\vskip.15in
+\noindent\textbf{F\lowercase{ORUM}:}  There is a class forum set up on \href{https://piazza.com/virginia/spring2024/math2310}{Piazza}, which I will try to check regularly. Students are
+encouraged to ask and answer questions about the course material and assignments on \href{https://piazza.com/virginia/spring2024/math2310}{Piazza}. 
+
+\vskip.15in
+\noindent\textbf{A\lowercase{DDITIONAL RESOURCES}:}   Students are strongly encouraged to participate to office hours. Additionaly, should you need it, the Math Collaborative Learning Center “\href{https://math.virginia.edu/undergraduate/MCLC/}{MCLC}”, is staffed with experienced undergraduate students that offer one-on-one (or small group) tutoring sessions for many of our 1000/2000/3000-level courses. The MCLC will operate in the Georges Student Center in Clemons Library, Sunday through Thursday (schedule TBD). The schedule for various courses is published at \href{https://math.virginia.edu/undergraduate/MCLC/}{https://math.virginia.edu/undergraduate/MCLC/}.
+
+UVA also provides resources if you are feeling overwhelmed, stressed, or isolated. The Student Health and
+Wellness Center offers \href{https://studenthealth.virginia.edu/caps}{Counseling and Psychological Services} (CAPS) for its students; call 434-243-5150
+to speak with an on-call counselor and/or schedule an appointment. If you prefer to speak anonymously,
+you can call Madison Houses \href{http://www.helplineuva.com/}{HELP Line} at any hour of any day: 434-295-TALK. Alternatively, you can
+call or text the \href{https://www.samhsa.gov/find-help/disaster-distress-helpline}{Disaster Distress Helpline} (1-800-985-5990, or text TalkWithUs to 66746) to connect with
+a trained crisis counselor; this is toll free, multilingual, and confidential, available to all residents in the
+US and its territories.
+
+\vskip.15in
+\noindent\textbf{D\lowercase{ISABILITY ACCOMMODATIONS}:}   All students with special needs requiring accommodations should present the appropriate paperwork from
+the \href{https://www.studenthealth.virginia.edu/sdac}{Student Disability Access Center} (SDAC). It is the student’s responsibility to present this paperwork in
+a timely fashion and follow up with the instructor about the accommodations being offered. Accommodations for exam-taking (e.g., extended time) should be arranged with the course instructor by the beginning
+of the second week of classes.
+
+\vskip.15in
+\noindent\textbf{R\lowercase{ELIGIOUS ACCOMMODATIONS}:} It is the University’s long-standing policy and practice to reasonably accommodate students so that they
+do not experience an adverse academic consequence when sincerely held religious beliefs or observances
+conflict with academic requirements. Students who wish to request academic accommodation for a religious observance should submit their request to me by email as far in advance as possible. If you
+have questions or concerns about your request, you can contact the University’s Office for Equal Opportunity and Civil Rights (EOCR) at UVAEOCR@virginia.edu or 434-924-3200. Accommodations do
+not relieve you of the responsibility for completion of any part of the coursework you miss as the result of a religious observance. For information about accommodations for religious observance, please see
+\href{https://eocr.virginia.edu/accommodations-religious-observance}{https://eocr.virginia.edu/accommodations-religious-observance}.
+
+\bigskip 
+
+{\footnotesize \textbf{Disclaimer}: The instructor reserves the right to alter the syllabus based on course needs as the semester progresses.}
+%%%%%% THE END 
+\end{document} 
