@@ -1,0 +1,565 @@
+% \bib, bibdiv, biblist are defined by the amsrefs package.
+\begin{bibdiv}
+\begin{biblist}
+
+\bib{Arnaudon2004general}{article}{
+      author={Arnaudon, D.},
+      author={Avan, J.},
+      author={Cramp\'{e}, N.},
+      author={Doikou, A.},
+      author={Frappat, L.},
+      author={Ragoucy, E.},
+       title={General boundary conditions for the {${\rm sl}(\scr N)$} and
+  {${\rm sl}(\scr M|\scr N)$} open spin chains},
+        date={2004},
+        ISSN={1742-5468},
+     journal={J. Stat. Mech. Theory Exp.},
+      number={8},
+       pages={005, 36},
+      review={\MR{2115253}},
+}
+
+\bib{Arakawa1999}{article}{
+      author={Arakawa, T.},
+       title={Drinfeld functor and finite-dimensional representations of
+  {Y}angian},
+        date={1999},
+        ISSN={0010-3616,1432-0916},
+     journal={Comm. Math. Phys.},
+      volume={205},
+      number={1},
+       pages={1\ndash 18},
+         url={https://doi.org/10.1007/s002200050664},
+      review={\MR{1706920}},
+}
+
+\bib{Ariki1995schur}{article}{
+      author={Ariki, S.},
+      author={Terasoma, T.},
+      author={Yamada, H.},
+       title={Schur-{W}eyl reciprocity for the {H}ecke algebra of {$({\bf
+  Z}/r{\bf Z})\wr S_n$}},
+        date={1995},
+        ISSN={0021-8693,1090-266X},
+     journal={J. Algebra},
+      volume={178},
+      number={2},
+       pages={374\ndash 390},
+         url={https://doi.org/10.1006/jabr.1995.1354},
+      review={\MR{1359891}},
+}
+
+\bib{bagnoli2023double}{article}{
+      author={Bagnoli, L.},
+      author={Ko{\v{z}}i{\'c}, S.},
+       title={{Double Yangian and reflection algebras of the Lie superalgebra
+  $\mathfrak{gl}_{m|n}$}},
+        date={2023},
+     journal={arXiv preprint arXiv:2311.02410},
+}
+
+\bib{Belliard2009nested}{article}{
+      author={Belliard, S.},
+      author={Ragoucy, E.},
+       title={The nested {B}ethe ansatz for `all' open spin chains with
+  diagonal boundary conditions},
+        date={2009},
+        ISSN={1751-8113,1751-8121},
+     journal={J. Phys. A},
+      volume={42},
+      number={20},
+       pages={205203, 35},
+         url={https://doi.org/10.1088/1751-8113/42/20/205203},
+      review={\MR{2515596}},
+}
+
+\bib{Berele1987hook}{article}{
+      author={Berele, A.},
+      author={Regev, A.},
+       title={Hook {Y}oung diagrams with applications to combinatorics and to
+  representations of {L}ie superalgebras},
+        date={1987},
+        ISSN={0001-8708},
+     journal={Adv. in Math.},
+      volume={64},
+      number={2},
+       pages={118\ndash 175},
+         url={https://doi.org/10.1016/0001-8708(87)90007-7},
+      review={\MR{884183}},
+}
+
+\bib{Chen2014twisted}{article}{
+      author={Chen, H.},
+      author={Guay, N.},
+      author={Ma, X.},
+       title={Twisted {Y}angians, twisted quantum loop algebras and affine
+  {H}ecke algebras of type {$BC$}},
+        date={2014},
+        ISSN={0002-9947,1088-6850},
+     journal={Trans. Amer. Math. Soc.},
+      volume={366},
+      number={5},
+       pages={2517\ndash 2574},
+         url={https://doi.org/10.1090/S0002-9947-2014-05994-1},
+      review={\MR{3165646}},
+}
+
+\bib{Cherednik1984Factorizing}{article}{
+      author={Cherednik, I.},
+       title={{Factorizing particles on a half line, and root systems}},
+        date={1984},
+        ISSN={0564-6162},
+     journal={Teoret. Mat. Fiz.},
+      volume={61},
+      number={1},
+       pages={35\ndash 44},
+      review={\MR{774205}},
+}
+
+\bib{Cheng2009dualities}{book}{
+      author={Cheng, S.-J.},
+      author={Wang, W.},
+       title={Dualities and representations of {L}ie superalgebras},
+      series={Graduate Studies in Mathematics},
+   publisher={American Mathematical Society, Providence, RI},
+        date={2012},
+      volume={144},
+        ISBN={978-0-8218-9118-6},
+         url={https://doi.org/10.1090/gsm/144},
+      review={\MR{3012224}},
+}
+
+\bib{Drinfeld198degenerate}{article}{
+      author={Drinfeld, V.},
+       title={Degenerate affine {H}ecke algebras and {Y}angians},
+        date={1986},
+        ISSN={0374-1990},
+     journal={Funktsional. Anal. i Prilozhen.},
+      volume={20},
+      number={1},
+       pages={69\ndash 70},
+      review={\MR{831053}},
+}
+
+\bib{Etingof2009}{article}{
+      author={Etingof, P.},
+      author={Freund, R.},
+      author={Ma, X.},
+       title={A {L}ie-theoretic construction of some representations of the
+  degenerate affine and double affine {H}ecke algebras of type {$BC_n$}},
+        date={2009},
+        ISSN={1088-4165},
+     journal={Represent. Theory},
+      volume={13},
+       pages={33\ndash 49},
+         url={https://doi.org/10.1090/S1088-4165-09-00345-8},
+      review={\MR{2480387}},
+}
+
+\bib{Flicker2020affine}{article}{
+      author={Flicker, Y.},
+       title={Affine quantum super {S}chur-{W}eyl duality},
+        date={2020},
+        ISSN={1386-923X,1572-9079},
+     journal={Algebr. Represent. Theory},
+      volume={23},
+      number={1},
+       pages={135\ndash 167},
+         url={https://doi.org/10.1007/s10468-018-9841-1},
+      review={\MR{4058428}},
+}
+
+\bib{Gow2007gauss}{article}{
+      author={Gow, L.},
+       title={Gauss decomposition of the {Y}angian {$Y({\germ{gl}}_{m|n})$}},
+        date={2007},
+        ISSN={0010-3616,1432-0916},
+     journal={Comm. Math. Phys.},
+      volume={276},
+      number={3},
+       pages={799\ndash 825},
+         url={https://doi.org/10.1007/s00220-007-0349-5},
+      review={\MR{2350438}},
+}
+
+\bib{Guay2016twisted}{article}{
+      author={Guay, N.},
+      author={Regelskis, V.},
+       title={Twisted {Y}angians for symmetric pairs of types {B}, {C}, {D}},
+        date={2016},
+        ISSN={0025-5874,1432-1823},
+     journal={Math. Z.},
+      volume={284},
+      number={1-2},
+       pages={131\ndash 166},
+         url={https://doi.org/10.1007/s00209-016-1649-2},
+      review={\MR{3545488}},
+}
+
+\bib{jankovic2023schur}{article}{
+      author={Jankovic, P.},
+       title={Schur-weyl functors for super yangians and deformed double
+  current algebras},
+        date={2023},
+     journal={{Ph.D thesis, University of Alberta}},
+}
+
+\bib{Kerber1971reps}{book}{
+      author={Kerber, A.},
+       title={Representations of permutation groups. {I}},
+      series={Lecture Notes in Mathematics},
+   publisher={Springer-Verlag, Berlin-New York},
+        date={1971},
+      volume={Vol. 240},
+      review={\MR{325752}},
+}
+
+\bib{kettle2023orthosymplectic}{article}{
+      author={Kettle, B.},
+       title={{Orthosymplectic, Periplectic, and Twisted Super Yangians}},
+        date={2023},
+     journal={{Ph.D thesis, University of Alberta}},
+}
+
+\bib{Kwon2022super}{article}{
+      author={Kwon, J.-H.},
+      author={Lee, S.-M.},
+       title={Super duality for quantum affine algebras of type {$A$}},
+        date={2022},
+        ISSN={1073-7928,1687-0247},
+     journal={Int. Math. Res. Not. IMRN},
+      number={23},
+       pages={18446\ndash 18525},
+         url={https://doi.org/10.1093/imrn/rnab230},
+      review={\MR{4519149}},
+}
+
+\bib{Lu2021jacobi}{article}{
+      author={Lu, K.},
+      author={Mukhin, E.},
+       title={Jacobi-{T}rudi identity and {D}rinfeld functor for super
+  {Y}angian},
+        date={2021},
+        ISSN={1073-7928,1687-0247},
+     journal={Int. Math. Res. Not. IMRN},
+      number={21},
+       pages={16751\ndash 16810},
+         url={https://doi.org/10.1093/imrn/rnab023},
+      review={\MR{4338233}},
+}
+
+\bib{Liashyk2019new}{article}{
+      author={Liashyk, A.},
+      author={Pakuliak, S.~Z.},
+      author={Ragoucy, E.},
+      author={Slavnov, N.~A.},
+       title={New symmetries of {$\germ{gl}(N)$}-invariant {B}ethe vectors},
+        date={2019},
+        ISSN={1742-5468},
+     journal={J. Stat. Mech. Theory Exp.},
+      number={4},
+       pages={044001, 24},
+         url={https://doi.org/10.1088/1742-5468/ab02f0},
+      review={\MR{4057221}},
+}
+
+\bib{Lu2021gelfand}{article}{
+      author={Lu, K.},
+       title={Gelfand-{T}setlin bases of representations for super {Y}angian
+  and quantum affine superalgebra},
+        date={2021},
+        ISSN={0377-9017,1573-0530},
+     journal={Lett. Math. Phys.},
+      volume={111},
+      number={6},
+       pages={Paper No. 145, 30},
+         url={https://doi.org/10.1007/s11005-021-01488-w},
+      review={\MR{4346502}},
+}
+
+\bib{Lu2022note}{article}{
+      author={Lu, K.},
+       title={A note on odd reflections of super {Y}angian and {B}ethe ansatz},
+        date={2022},
+        ISSN={0377-9017,1573-0530},
+     journal={Lett. Math. Phys.},
+      volume={112},
+      number={2},
+       pages={Paper No. 29, 26},
+         url={https://doi.org/10.1007/s11005-022-01524-3},
+      review={\MR{4400677}},
+}
+
+\bib{Lu2023schur}{article}{
+      author={Lu, K.},
+       title={Schur-{W}eyl duality for quantum toroidal superalgebras},
+        date={2023},
+        ISSN={0022-4049,1873-1376},
+     journal={J. Pure Appl. Algebra},
+      volume={227},
+      number={9},
+       pages={Paper No. 107382, 19},
+         url={https://doi.org/10.1016/j.jpaa.2023.107382},
+      review={\MR{4569699}},
+}
+
+\bib{Lusztig1989affine}{article}{
+      author={Lusztig, G.},
+       title={Affine {H}ecke algebras and their graded version},
+        date={1989},
+        ISSN={0894-0347,1088-6834},
+     journal={J. Amer. Math. Soc.},
+      volume={2},
+      number={3},
+       pages={599\ndash 635},
+         url={https://doi.org/10.2307/1990945},
+      review={\MR{991016}},
+}
+
+\bib{Lu2023drinfeld}{article}{
+      author={Lu, K.},
+      author={Wang, W.},
+      author={Zhang, W.},
+       title={{A Drinfeld type Presentation of twisted Yangians}},
+        date={2023},
+     journal={arXiv:2308.12254},
+}
+
+\bib{Lu2023affine}{article}{
+      author={Lu, K.},
+      author={Wang, W.},
+      author={Zhang, W.},
+       title={{Affine $\imath$quantum groups and twisted Yangians in Drinfeld
+  presentations}},
+        date={2023},
+     journal={in preparation},
+}
+
+\bib{MacKay2002rational}{article}{
+      author={MacKay, N.},
+       title={Rational {$K$}-matrices and representations of twisted
+  {Y}angians},
+        date={2002},
+        ISSN={0305-4470,1751-8121},
+     journal={J. Phys. A},
+      volume={35},
+      number={37},
+       pages={7865\ndash 7876},
+         url={https://doi.org/10.1088/0305-4470/35/37/302},
+      review={\MR{1945798}},
+}
+
+\bib{Mitsuhashi2006schur}{article}{
+      author={Mitsuhashi, H.},
+       title={Schur-{W}eyl reciprocity between the quantum superalgebra and the
+  {I}wahori-{H}ecke algebra},
+        date={2006},
+        ISSN={1386-923X,1572-9079},
+     journal={Algebr. Represent. Theory},
+      volume={9},
+      number={3},
+       pages={309\ndash 322},
+         url={https://doi.org/10.1007/s10468-006-9014-5},
+      review={\MR{2251378}},
+}
+
+\bib{Molev2022odd}{article}{
+      author={Molev, A.},
+       title={Odd reflections in the {Y}angian associated with
+  {$\germ{gl}(m|n)$}},
+        date={2022},
+        ISSN={0377-9017,1573-0530},
+     journal={Lett. Math. Phys.},
+      volume={112},
+      number={1},
+       pages={Paper No. 8, 15},
+         url={https://doi.org/10.1007/s11005-021-01501-2},
+      review={\MR{4367922}},
+}
+
+\bib{Molev1998finite}{article}{
+      author={Molev, A.},
+       title={Finite-dimensional irreducible representations of twisted
+  {Y}angians},
+        date={1998},
+        ISSN={0022-2488,1089-7658},
+     journal={J. Math. Phys.},
+      volume={39},
+      number={10},
+       pages={5559\ndash 5600},
+         url={https://doi.org/10.1063/1.532551},
+      review={\MR{1642338}},
+}
+
+\bib{Moon2003highest}{article}{
+      author={Moon, D.},
+       title={Highest weight vectors of irreducible representations of the
+  quantum superalgebra {$\germ U_q({\rm gl}(m,n))$}},
+        date={2003},
+        ISSN={0304-9914,2234-3008},
+     journal={J. Korean Math. Soc.},
+      volume={40},
+      number={1},
+       pages={1\ndash 28},
+         url={https://doi.org/10.4134/JKMS.2003.40.1.001},
+      review={\MR{1945710}},
+}
+
+\bib{Molev2002reflection}{article}{
+      author={Molev, A.},
+      author={Ragoucy, E.},
+       title={Representations of reflection algebras},
+        date={2002},
+        ISSN={0129-055X,1793-6659},
+     journal={Rev. Math. Phys.},
+      volume={14},
+      number={3},
+       pages={317\ndash 342},
+         url={https://doi.org/10.1142/S0129055X02001156},
+      review={\MR{1894013}},
+}
+
+\bib{Nazarov2020yangian}{article}{
+      author={Nazarov, M.},
+       title={Yangian of the general linear {L}ie superalgebra},
+        date={2020},
+        ISSN={1815-0659},
+     journal={SIGMA Symmetry Integrability Geom. Methods Appl.},
+      volume={16},
+       pages={Paper No. 112, 24 pages},
+         url={https://doi.org/10.3842/SIGMA.2020.112},
+      review={\MR{4170710}},
+}
+
+\bib{Nazarov1991berezinian}{article}{
+      author={Nazarov, M.},
+       title={Quantum {B}erezinian and the classical {C}apelli identity},
+        date={1991},
+        ISSN={0377-9017,1573-0530},
+     journal={Lett. Math. Phys.},
+      volume={21},
+      number={2},
+       pages={123\ndash 131},
+         url={https://doi.org/10.1007/BF00401646},
+      review={\MR{1093523}},
+}
+
+\bib{Nazarov1999queer}{article}{
+      author={Nazarov, M.},
+       title={Yangian of the queer {L}ie superalgebra},
+        date={1999},
+        ISSN={0010-3616,1432-0916},
+     journal={Comm. Math. Phys.},
+      volume={208},
+      number={1},
+       pages={195\ndash 223},
+         url={https://doi.org/10.1007/s002200050754},
+      review={\MR{1729884}},
+}
+
+\bib{Olshanski1992twisted}{incollection}{
+      author={Olshanski, G.},
+       title={Twisted {Y}angians and infinite-dimensional classical {L}ie
+  algebras},
+        date={1992},
+   booktitle={Quantum groups ({L}eningrad, 1990)},
+      series={Lecture Notes in Math.},
+      volume={1510},
+   publisher={Springer, Berlin},
+       pages={104\ndash 119},
+         url={https://doi.org/10.1007/BFb0101183},
+      review={\MR{1183482}},
+}
+
+\bib{Peng2016parabolic}{article}{
+      author={Peng, Y.-N.},
+       title={Parabolic presentations of the super {Y}angian
+  {$Y(\germ{gl}_{M|N})$} associated with arbitrary 01-sequences},
+        date={2016},
+        ISSN={0010-3616,1432-0916},
+     journal={Comm. Math. Phys.},
+      volume={346},
+      number={1},
+       pages={313\ndash 347},
+         url={https://doi.org/10.1007/s00220-015-2548-9},
+      review={\MR{3528423}},
+}
+
+\bib{Ragoucy2007analytical}{article}{
+      author={Ragoucy, E.},
+      author={Satta, G.},
+       title={Analytical {B}ethe ansatz for closed and open {${\rm gl}(\scr
+  M|\scr N)$} super-spin chains in arbitrary representations and for any
+  {D}ynkin diagram},
+        date={2007},
+        ISSN={1126-6708,1029-8479},
+     journal={J. High Energy Phys.},
+      number={9},
+       pages={001, 40},
+         url={https://doi.org/10.1088/1126-6708/2007/09/001},
+      review={\MR{2342430}},
+}
+
+\bib{Sergeev1984tensor}{article}{
+      author={Sergeev, A.},
+       title={Tensor algebra of the identity representation as a module over
+  the {L}ie superalgebras {${\rm Gl}(n,\,m)$} and {$Q(n)$}},
+        date={1984},
+        ISSN={0368-8666},
+     journal={Mat. Sb. (N.S.)},
+      volume={123(165)},
+      number={3},
+       pages={422\ndash 430},
+      review={\MR{735715}},
+}
+
+\bib{Shen2022quantum}{article}{
+      author={Shen, Y.},
+       title={{Quantum supersymmetric pairs and $\imath$Schur duality of type
+  AIII}},
+        date={2022},
+     journal={arXiv:2210.01233},
+}
+
+\bib{Sklyanin1988Boundary}{article}{
+      author={Sklyanin, E.},
+       title={Boundary conditions for integrable quantum systems},
+        date={1988},
+        ISSN={0305-4470,1751-8121},
+     journal={J. Phys. A},
+      volume={21},
+      number={10},
+       pages={2375\ndash 2389},
+         url={http://stacks.iop.org/0305-4470/21/2375},
+      review={\MR{953215}},
+}
+
+\bib{Zhang1995reps}{article}{
+      author={Zhang, R.~B.},
+       title={Representations of super {Y}angian},
+        date={1995},
+        ISSN={0022-2488,1089-7658},
+     journal={J. Math. Phys.},
+      volume={36},
+      number={7},
+       pages={3854\ndash 3865},
+         url={https://doi.org/10.1063/1.530932},
+      review={\MR{1339907}},
+}
+
+\bib{Zhang1996super}{article}{
+      author={Zhang, R.~B.},
+       title={The {${\rm gl}(M|N)$} super {Y}angian and its finite-dimensional
+  representations},
+        date={1996},
+        ISSN={0377-9017,1573-0530},
+     journal={Lett. Math. Phys.},
+      volume={37},
+      number={4},
+       pages={419\ndash 434},
+         url={https://doi.org/10.1007/BF00312673},
+      review={\MR{1401045}},
+}
+
+\end{biblist}
+\end{bibdiv}
