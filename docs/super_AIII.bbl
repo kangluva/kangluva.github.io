@@ -325,13 +325,12 @@
      journal={arXiv:2308.12254},
 }
 
-\bib{Lu2023affine}{article}{
+\bib{Lu2024affine}{article}{
       author={Lu, K.},
       author={Wang, W.},
       author={Zhang, W.},
-       title={{Affine $\imath$quantum groups and twisted Yangians in Drinfeld
-  presentations}},
-        date={2023},
+       title={{A Drinfeld presentation of twisted Yangians via degeneration}},
+        date={2024},
      journal={in preparation},
 }
 

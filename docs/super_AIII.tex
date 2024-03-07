@@ -227,7 +227,7 @@ Our primary objective is to obtain analogous results to \cite{Molev2002reflectio
 
 Finite-dimensional irreducible representations of super Yangians were classified by Zhang \cite{Zhang1995reps,Zhang1996super} for the standard parity sequence. A complete and concrete description of criteria for an irreducible $\mathscr Y(\gl_{m|n}^\s)$-module (for arbitrary $\s$) being finite-dimensional is not available, though such a criteria can be obtained recursively using the odd reflections \cite{Molev2022odd,Lu2022note}. Consequently, we only have classification of finite-dimensional irreducible $\mathscr B_{\s,\bm\ve}$-modules for the cases (1) arbitrary $\bm\ve$ when $n=0,1$ and (2) the standard parity sequence $\s$ when the occurrence of $i$ such that $\ve_i\ne \ve_{i+1}$  is at most 1.
 
-There are also twisted Yangians of types AI and AII introduced by Olshanski \cite{Olshanski1992twisted} and of types BCD introduced by Guay and Regelskis \cite{Guay2016twisted} via R-matrix presentation. Another family of twisted Yangians associated to general symmetric pairs were introduced by MacKay \cite{MacKay2002rational} in terms of Drinfeld's J-symbols. More recently, together with Wang and Zhang, we introduced another family of twisted Yangians for symmetric pairs of split types in Drinfeld's new presentation, \cite{Lu2023drinfeld,Lu2023affine}. The isomorphism between these families remains unproven, offering an interesting avenue for future research. Results for certain types like type AI and AIII can be found in \cite{Lu2023drinfeld,Chen2014twisted}, respectively. It is an interesting question to find Drinfeld's original and new presentations for twisted super Yangians of type AIII.
+There are also twisted Yangians of types AI and AII introduced by Olshanski \cite{Olshanski1992twisted} and of types BCD introduced by Guay and Regelskis \cite{Guay2016twisted} via R-matrix presentation. Another family of twisted Yangians associated to general symmetric pairs were introduced by MacKay \cite{MacKay2002rational} in terms of Drinfeld's J-symbols. More recently, together with Wang and Zhang, we introduced another family of twisted Yangians for symmetric pairs of split types in Drinfeld's new presentation, \cite{Lu2023drinfeld,Lu2024affine}. The isomorphism between these families remains unproven, offering an interesting avenue for future research. Results for certain types like type AI and AIII can be found in \cite{Lu2023drinfeld,Chen2014twisted}, respectively. It is an interesting question to find Drinfeld's original and new presentations for twisted super Yangians of type AIII.
 
 This article is organized in the following fashion. Section \ref{sec:super yangian} revisits basic properties of the super Yangian $\mathscr Y(\gl_{m|n}^\s)$. Section \ref{sec:twisted-super-yangians} delves into twisted super Yangians and their properties. Section \ref{sec:reps} explores highest weight representation theory and tensor product structures for twisted super Yangians. Section \ref{sec:rank1} classifies finite-dimensional irreducible representations for rank 1, while Section \ref{sec:classification} extends this classification to higher ranks in key cases. Finally, Section \ref{sec:schur-weyl} establishes a Schur-Weyl type duality between degenerate affine Hecke algebras of type BC and twisted super Yangians.
 
@@ -757,7 +757,7 @@ $$
 Then the statement follows from a straightforward computation.
 \end{proof}
 
-Let $\theta$ be the involution of $\glMN$ sending $e_{ij}$ to $\ve_i\ve_j e_{ij}$ and $(\glMN)^\theta$ the fixed point Lie subalgebra of $\glMN$ under $\theta$. Note that $\theta$ depends on the diagonal matrix $G^{\bm\ve}$ which we shall not write explicitly. Then $(\glMN,(\glMN)^\theta)$ is a (super)symmetric pair of type AIII. Write $\glMN=\mathfrak k+\mathfrak p$ as the $(\pm 1)$-eigenspace decomposition with respect to $\theta$. In particular,
+Let $\theta$ be the involution of $\glMN$ sending $e_{ij}$ to $\ve_i\ve_j e_{ij}$ and $(\glMN)^\theta$ the fixed point Lie subalgebra of $\glMN$ under $\theta$. Note that $\theta$ depends on the diagonal matrix $G^{\bm\ve}$ which we shall not write explicitly. Then $(\glMN,(\glMN)^\theta)$ is a (super)symmetric pair of type AIII, cf. \cite{Shen2022quantum}. Write $\glMN=\mathfrak k+\mathfrak p$ as the $(\pm 1)$-eigenspace decomposition with respect to $\theta$. In particular,
 $$
 \mathfrak k=(\glMN)^\theta\cong \gl_{m_1|n_1}\oplus \gl_{m_2|n_2},
 $$
@@ -1129,7 +1129,7 @@ and $\mu_\ka(u)=\ve_\ka\la_\ka(u)/\la_\ka(-u)$. By Propositions \ref{prop:t'-l-w
 \subsection{Tensor product of representations}
 Recall from Proposition \ref{prop:coproduct} that $\BMN$ is a left coideal subalgebra in $\YMN$. Given a $\YMN$-module $L$ and a $\BMN$-module $V$, then $L\otimes V$ is a $\BMN$-module given by the coproduct formula \eqref{eq:b-copro-in-t} in Proposition \ref{prop:coproduct}.
 
-Let $L=L(\bla(u))$ be a highest $\ell_\s$-weight module over $\YMN$ with a highest $\ell_\s$-weight vector $\xi$. Let $V=V(\bm\mu(u))$ be a highest $\ell_{\s,\bm\ve}$-weight module over $\BMN$ with a highest $\ell_{\s,\bm\ve}$-weight vector $\eta$. We end this section by showing that $\xi\otimes \eta$ is a highest $\ell_{\s,\bm\ve}$-weight vector and  investigating its highest $\ell_{\s,\bm\ve}$-weight.
+Let $L=L(\bla(u))$ be a highest $\ell_\s$-weight module over $\YMN$ with a highest $\ell_\s$-weight vector $\xi$. Let $V=V(\bm\mu(u))$ be a highest $\ell_{\s,\bm\ve}$-weight module over $\BMN$ with a highest $\ell_{\s,\bm\ve}$-weight vector $\eta$. We end this section by showing that $\xi\otimes \eta$ is a highest $\ell_{\s,\bm\ve}$-weight vector and calculating its highest $\ell_{\s,\bm\ve}$-weight.
 
 Again we shall use the convenient notation $A\approx B$ if $A\xi =B\xi$.
 
@@ -1162,7 +1162,7 @@ It is easily seen from Lemma \ref{lem:tia-kill} and \eqref{eq:b-copro-in-t} that
 
 Again we write $A\approx B$ if $A(\xi\otimes\eta)=B(\xi\otimes\eta)$. It follows from Lemma \ref{lem:tia-kill} that
 \begin{align*}
-\Delta(b_{ii}(u)) \approx \sum_{a=i}^\ka t_{ia}(u)t_{ai}'(-u)\otimes b_{aa}(u)(\xi\otimes\eta).
+\Delta(b_{ii}(u)) \approx \sum_{a=i}^\ka \big(t_{ia}(u)t_{ai}'(-u)\otimes b_{aa}(u)\big)(\xi\otimes\eta).
 \end{align*}
 Therefore,
 \begin{align*}
@@ -1176,7 +1176,7 @@ Here we applied Lemma \ref{lem:sum-T-} in the third equality. Now the statement 
 \begin{eg}\label{eg:tensor-1}
 Recall the one dimensional $\BMN$-module $\bC_{\gamma}=\bC\eta_{\gamma}$ from Example \ref{eg:1-dim} for $\gamma\in\bC$. Let $L=L(\bla(u))$ be a highest $\ell_\s$-weight module over $\YMN$ with a highest $\ell_\s$-weight vector $\xi$. Then by Proposition \ref{prop:tensor-product} we have
 \[
-\tl{b}_{ii}(u)(\xi\otimes\eta_\gamma)=\frac{2\ve_i u-\ve_i\rho_{i+1}+\varpi_{i+1}+2\gamma}{u-\gamma}\la_i(u)\la_{i}'(-u)(\xi\otimes\eta_\gamma),
+\tl{b}_{ii}(u)(\xi\otimes\eta_\gamma)=\frac{(2\ve_i u-\ve_i\rho_{i+1}+\varpi_{i+1}+2\gamma)u}{u-\gamma}\la_i(u)\la_{i}'(-u)(\xi\otimes\eta_\gamma),
 \]
 cf. Lemma \ref{lem:b-in-t}.\qed
 \end{eg}
@@ -2016,7 +2016,7 @@ Denote by $\fkS_l$ the symmetric group on $l$ elements and set $\Z_2=\Z/2\Z$. Th
 \]
 For $1\lle i\ne j\lle j$, let $\sigma_{ij}$, $\varsigma_i$ be the reflections about the root vectors $e_i-e_j$ and $e_i$, respectively. Set $\sigma_i=\sigma_{i,i+1}$ for $1\lle i<l$.
 \begin{dfn}
-For $\vartheta_1\in\bC$ and $l\in\Z_{>0}$, the dAHA $\mathscr{H}_{\vartheta}^l$ of type $\mathrm A_l$ is the associative algebra generated by the group algebra $\bC[\fkS_l]$ and $y_1,\cdots,y_l$ with the relations $y_iy_j=y_jy_i$, $1\lle i,j\lle l$, and
+For $\vartheta_1\in\bC$ and $l\in\Z_{>0}$, the dAHA $\mathscr{H}_{\vartheta_1}^l$ of type $\mathrm A_l$ is the associative algebra generated by the group algebra $\bC[\fkS_l]$ and $y_1,\cdots,y_l$ with the relations $y_iy_j=y_jy_i$, $1\lle i,j\lle l$, and
 \begin{align*}
 &\sigma_iy_i-y_{i+1}\sigma_i=\vartheta_1,&1\lle i< l,\\
 &\sigma_iy_j=y_j\sigma_i, &j\ne i,i+1.
@@ -2032,7 +2032,7 @@ For $\vartheta_1,\vartheta_2\in\bC$ and $l\in\Z_{>0}$, the dAHA $\mathscr{H}_{\v
 \varsigma_ly_l+y_l\varsigma_l=\vartheta_2,\qquad \sigma_iy_j=y_j\sigma_i,\quad j\ne i,i+1.
 \]
 \end{dfn}
-The following lemmas are known, see e.g. \cite[Section 2]{Chen2014twisted}.
+The following lemmas are well known, see e.g. \cite[Section 2]{Chen2014twisted}.
 \begin{lem}
 The subalgebra of $\mathscr{H}_{\vartheta_1,\vartheta_2}^l$ generated by $y_i$, $1\lle i\lle l$, and $\C[\fkS_l]$ is isomorphic to the dAHA $\mathscr{H}_{\vartheta_1}^l$ of type $\mathrm A_l$.\qed
 \end{lem}
@@ -2053,11 +2053,11 @@ The algebra $\mathscr{H}_{\vartheta_1,\vartheta_2}^l$ is isomorphic to the algeb
 \]
 \[
 \varsigma_l\sfy_l=-\sfy_{l}\varsigma_l,\qquad
-\varsigma_l\sfy_i=\sfy_{l}\varsigma_i,\qquad i\ne l,
+\varsigma_l\sfy_i=\sfy_i\varsigma_l,\qquad i\ne l,
 \]
 \begin{align*}
     [\sfy_i,\sfy_j]= \frac{\vartheta_1 \vartheta_2}{2}\sigma_{ij}(\varsigma_j-\varsigma_i)&\,+\frac{\vartheta_1^2}{4}\sum_{\substack{k=1 \\ k\ne i,j}}^l\Big((\sigma_{jk}\sigma_{ik}-\sigma_{ik}\sigma_{jk})\\
-    &\, +\sigma_{ik}\sigma_{jk}(\varsigma_i\varsigma_j-\varsigma_i\varsigma_k+\varsigma_j\varsigma_k)-\sigma_{jk}\sigma_{ik}(\varsigma_i\varsigma_j+\varsigma_i\varsigma_k+-\varsigma_j\varsigma_k)\Big).
+    &\, +\sigma_{ik}\sigma_{jk}(\varsigma_i\varsigma_j-\varsigma_i\varsigma_k+\varsigma_j\varsigma_k)-\sigma_{jk}\sigma_{ik}(\varsigma_i\varsigma_j+\varsigma_i\varsigma_k-\varsigma_j\varsigma_k)\Big).
 \end{align*}
 Moreover, this presentation is related to the one in Definition \ref{def:dAHA-B} by
 \[
@@ -2115,14 +2115,14 @@ For any $\gamma\in\C$, the mapping
 defines a superalgebra homomorphism from the twisted Yangian $\mathscr B_{\bm s,\bm\ve}$ to the super Yangian $\mathrm{Y}_{\bm s}$.
 \end{lem}
 \begin{proof}
-In the same way of Proposition \ref{thm:embedding}, it suffices to show that the matrix $G_{\ve}+\gamma u^{-1}$ satisfies the reflection equation \eqref{eq:reflectG} which it is known in \cite{Arnaudon2004general,Ragoucy2007analytical,Belliard2009nested}.
+In the same way as Proposition \ref{thm:embedding}, it suffices to show that the matrix $G_{\ve}+\gamma u^{-1}$ satisfies the reflection equation \eqref{eq:reflectG} which it is known in \cite{Arnaudon2004general,Ragoucy2007analytical,Belliard2009nested}.
 \end{proof}
 
 For brevity, we set
 $$
 G^{\bm\ve,\gamma}(u)=G^{\bm\ve}+\gamma u^{-1},\quad \jmath=\frac{m-n}{2}.
 $$
-Consider the following elements in $\mathscr H^l_{\vartheta_1,\vartheta_2}[[]u^{-1}]\otimes \End(V^{\otimes l})\otimes \End(V)$,
+Consider the following elements in $\mathscr H^l_{\vartheta_1,\vartheta_2}[[u^{-1}]]\otimes \End(V^{\otimes l})\otimes \End(V)$,
 \[
 \mc T^{\chi}_k(u)=1+\frac{1}{u-\jmath-\chi y_k}\otimes \mc Q^{(k)},\quad \mc S^{\chi}_k(u)=1-\frac{1}{u+\jmath-\chi y_k}\otimes \mc Q^{(k)},
 \]
@@ -2143,7 +2143,7 @@ T(u)\mapsto \mc T_1^\chi(u)\cdots \mc T^{\chi}_l(u).
 $$
 Hence it follows from Lemma \ref{lem:embedding} and \eqref{eq:t-times=s} that $B(u)\mapsto \mc B^\chi(u)$ induces an action of $\BMN$ on $\mc D^{\ve}_\s(M)$.
 
-The $\fkS_l$-action on $V^{\otimes l}$ can be extended to $\scrW_l$ by setting the action of $\varsigma_k$ on $V^{\otimes l}$ by multiplication on the $k$-th factor by the matrix $G^{\bm \ve}_k$. We also write this operator as $G^{\ve}_k$. For an $\mathscr H_{\vartheta_1,\vartheta_2}^l$-module $M$, the group $\scrW_l$ acts on $M\otimes V^{\otimes l}$ by the diagonal action. We further set
+The $\fkS_l$-action on $V^{\otimes l}$ can be extended to $\scrW_l$ by setting the action of $\varsigma_k$ on $V^{\otimes l}$ by multiplication on the $k$-th factor by the matrix $G^{\bm \ve}$. We also write this operator as $G^{\ve}_k$. For an $\mathscr H_{\vartheta_1,\vartheta_2}^l$-module $M$, the group $\scrW_l$ acts on $M\otimes V^{\otimes l}$ by the diagonal action. We further set
 \[
 \mc D_{\s,\bm\ve}^{\ve}(M)=\mc D_{\s}^\ve(M)/(\mathrm{Im}\,\varsigma_l-\ve).
 \]
@@ -2175,7 +2175,7 @@ The proof is similar to that of \cite[Theorem 4.5]{Chen2014twisted} by using Lem
 
 Therefore, one has a functor $\mc D_{\s,\bm\ve}^\ve$ from the category of $\mathscr H_{\vartheta_1,\vartheta_2}^l$-modules to the category of $\BMN$-modules. Again, we call the functor $\mc D_{\s,\bm\ve}^\ve$ the {\it Drinfeld functor}.
 
-Let $l,l_1,l_2\in\bZ$ such that $l=l_1+l_2$. Let $M_1$ be an $\mathscr H_{\vartheta_1}^{l_1}$-module, $M_2$ an $\mathscr H_{\vartheta_1,\vartheta_2}^{l_2}$-module. Set
+Let $l,l_1,l_2\in\bZ_{\gge0}$ such that $l=l_1+l_2$. Let $M_1$ be an $\mathscr H_{\vartheta_1}^{l_1}$-module, $M_2$ an $\mathscr H_{\vartheta_1,\vartheta_2}^{l_2}$-module. Set
 \[
 M_1\odot M_2 =\mathscr H_{\vartheta_1,\vartheta_2}^{l}\otimes_{\mathscr H_{\vartheta_1}^{l_1} \otimes \mathscr H_{\vartheta_1,\vartheta_2}^{l_2} }(M_1\otimes M_2),
 \]
