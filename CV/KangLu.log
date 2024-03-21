@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  3 MAR 2024 06:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  21 MAR 2024 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,11 +609,11 @@ Package rerunfilecheck Info: File `KangLu.out' has not changed.
 (rerunfilecheck)             Checksum: B04B61D6D31E73E968B57DEE594CD573;1459.
  ) 
 Here is how much of TeX's memory you used:
- 13480 strings out of 478268
- 222416 string characters out of 5846347
+ 13482 strings out of 478268
+ 222438 string characters out of 5846347
  658995 words of memory out of 5000000
  31271 multiletter control sequences out of 15000+600000
- 540368 words of font info for 156 fonts, out of 8000000 for 9000
+ 540462 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,83p,1003b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -636,7 +636,7 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 324574 bytes).
+Output written on KangLu.pdf (5 pages, 325310 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
