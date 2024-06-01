@@ -2,7 +2,7 @@ PWD /Users/nirvanads/blogg/source/CV
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT KangLu.tex
+INPUT /Users/nirvanads/blogg/source/CV/KangLu.tex
 OUTPUT KangLu.log
 INPUT ./moderncv.cls
 INPUT ./moderncv.cls
