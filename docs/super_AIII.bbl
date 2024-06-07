@@ -292,7 +292,7 @@
 
 \bib{Lu2023schur}{article}{
       author={Lu, K.},
-       title={Schur-{W}eyl duality for quantum toroidal superalgebras},
+       title={{Schur-{W}eyl duality for quantum toroidal superalgebras}},
         date={2023},
         ISSN={0022-4049,1873-1376},
      journal={J. Pure Appl. Algebra},
@@ -329,7 +329,17 @@
       author={Lu, K.},
       author={Wang, W.},
       author={Zhang, W.},
-       title={{A Drinfeld presentation of twisted Yangians via degeneration}},
+       title={{Affine $\imath$quantum groups and twisted Yangians in Drinfeld
+  presentations}},
+        date={2024},
+     journal={in preparation},
+}
+
+\bib{Lu2024drinfeld}{article}{
+      author={Lu, K.},
+      author={Zhang, W.},
+       title={{A Drinfeld type Presentation of twisted Yangians of quasi-split
+  type}},
         date={2024},
      journal={in preparation},
 }
