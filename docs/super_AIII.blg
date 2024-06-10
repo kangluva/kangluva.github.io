@@ -8,15 +8,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: all.bib
 You've used 44 entries,
             1821 wiz_defined-function locations,
-            838 strings with 11261 characters,
-and the built_in function-call counts, 45365 in all, are:
-= -- 1984
+            839 strings with 11277 characters,
+and the built_in function-call counts, 45375 in all, are:
+= -- 1986
 > -- 3847
 < -- 276
-+ -- 1008
++ -- 1010
 - -- 3597
 * -- 4213
-:= -- 8741
+:= -- 8743
 add.period$ -- 0
 call.type$ -- 44
 change.case$ -- 205
@@ -25,7 +25,7 @@ cite$ -- 44
 duplicate$ -- 2965
 empty$ -- 1379
 format.name$ -- 256
-if$ -- 5148
+if$ -- 5150
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 1104
@@ -37,7 +37,7 @@ purify$ -- 204
 quote$ -- 0
 skip$ -- 945
 stack$ -- 0
-substring$ -- 992
+substring$ -- 994
 swap$ -- 2013
 text.length$ -- 438
 text.prefix$ -- 27

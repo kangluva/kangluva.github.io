@@ -332,7 +332,7 @@
        title={{Affine $\imath$quantum groups and twisted Yangians in Drinfeld
   presentations}},
         date={2024},
-     journal={in preparation},
+     journal={arXiv:2406.05067},
 }
 
 \bib{Lu2024drinfeld}{article}{
@@ -512,7 +512,7 @@
 \bib{Sergeev1984tensor}{article}{
       author={Sergeev, A.},
        title={Tensor algebra of the identity representation as a module over
-  the {L}ie superalgebras {${\rm Gl}(n,\,m)$} and {$Q(n)$}},
+  the {L}ie superalgebras {${\rm GL}(n,\,m)$} and {$Q(n)$}},
         date={1984},
         ISSN={0368-8666},
      journal={Mat. Sb. (N.S.)},
