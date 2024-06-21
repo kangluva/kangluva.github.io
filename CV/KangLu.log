@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  9 JUN 2024 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  20 JUN 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,7 +327,6 @@ File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
 Package hyperref Info: Option `unicode' set `true' on input line 4018.
 Package hyperref Info: Hyper figures OFF on input line 4137.
 Package hyperref Info: Link nesting OFF on input line 4142.
@@ -354,7 +353,7 @@ Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
 Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring OFF on input line 6047.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
@@ -392,33 +391,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip74
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 55.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 55
+Package hyperref Info: Option `breaklinks' set `true' on input line 56.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 56
 .
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./KangLu.aux)
 \openout1 = `KangLu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -442,18 +441,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 55.
-Package microtype Info: Applying patch `item' on input line 55.
-Package microtype Info: Applying patch `toc' on input line 55.
-Package microtype Info: Applying patch `eqnum' on input line 55.
-Package microtype Info: Applying patch `footnote' on input line 55.
+LaTeX Info: Redefining \microtypecontext on input line 56.
+Package microtype Info: Applying patch `item' on input line 56.
+Package microtype Info: Applying patch `toc' on input line 56.
+Package microtype Info: Applying patch `eqnum' on input line 56.
+Package microtype Info: Applying patch `footnote' on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 55.
+LaTeX Info: Redefining \showhyphens on input line 56.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -496,7 +495,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 55.
+Package hyperref Info: Link coloring OFF on input line 56.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -509,9 +508,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
  (./KangLu.out) (./KangLu.out)
 \@outlinefile=\write3
 \openout3 = `KangLu.out'.
@@ -519,36 +518,36 @@ LaTeX Info: Redefining \nameref on input line 55.
 \pagenumberwidth=\skip75
 \makecvtitledetailsbox=\box55
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-7.
+8.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-7.
+8.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-57.
+58.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-57.
+58.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 57.
+(Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 57.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 57.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+(Font)              <5> on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -557,7 +556,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -573,17 +572,17 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvtitledetailswidth=\skip76
 \makecvtitlepicturewidth=\skip77
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 65.
+(Font)              <10.95> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 65.
+(Font)              <8> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 65.
-LaTeX Font Info:    Trying to load font information for U+euf on input line 103
+(Font)              <6> on input line 66.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 104
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -594,10 +593,10 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 ) [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.27583pt too wide) in paragraph at lines 137--138
+Overfull \hbox (8.27583pt too wide) in paragraph at lines 138--139
 []$[]$\T1/lmr/m/n/10.95 (-20) , Weiqiang Wang, and Weinan Zhang, \T1/lmr/m/it/1
 0.95 (-20) A Drin-feld type pre-sen-ta-tion of twisted Yan-gians\T1/lmr/m/n/10.
-95 (-20) , [][]arXiv:2308.12254[][]. 
+95 (-20) , []arXiv:2308.12254[]. 
  []
 
 [2]
@@ -609,13 +608,13 @@ Package rerunfilecheck Info: File `KangLu.out' has not changed.
 (rerunfilecheck)             Checksum: B04B61D6D31E73E968B57DEE594CD573;1459.
  ) 
 Here is how much of TeX's memory you used:
- 13481 strings out of 478268
- 222420 string characters out of 5846347
- 658995 words of memory out of 5000000
- 31271 multiletter control sequences out of 15000+600000
- 540379 words of font info for 156 fonts, out of 8000000 for 9000
+ 13469 strings out of 478268
+ 222267 string characters out of 5846347
+ 658746 words of memory out of 5000000
+ 31266 multiletter control sequences out of 15000+600000
+ 540036 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,83p,1003b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,13n,83p,1003b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-d
@@ -636,10 +635,10 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 325325 bytes).
+Output written on KangLu.pdf (5 pages, 324711 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  34913 words of extra memory for PDF output out of 35830 (max. 10000000)
 
