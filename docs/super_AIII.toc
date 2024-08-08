@@ -21,9 +21,9 @@
 \contentsline {subsection}{\tocsubsection {}{6.1}{Sufficient conditions}}{30}{subsection.6.1}%
 \contentsline {subsection}{\tocsubsection {}{6.2}{Reduction lemmas}}{30}{subsection.6.2}%
 \contentsline {subsection}{\tocsubsection {}{6.3}{Classification 1}}{31}{subsection.6.3}%
-\contentsline {subsection}{\tocsubsection {}{6.4}{Classification 2}}{33}{subsection.6.4}%
-\contentsline {section}{\tocsection {}{7}{Drinfeld functor and dAHA of type BC}}{34}{section.7}%
-\contentsline {subsection}{\tocsubsection {}{7.1}{Degenerate affine Hecke algebras}}{34}{subsection.7.1}%
+\contentsline {subsection}{\tocsubsection {}{6.4}{Classification 2}}{32}{subsection.6.4}%
+\contentsline {section}{\tocsection {}{7}{Drinfeld functor and dAHA of type BC}}{33}{section.7}%
+\contentsline {subsection}{\tocsubsection {}{7.1}{Degenerate affine Hecke algebras}}{33}{subsection.7.1}%
 \contentsline {subsection}{\tocsubsection {}{7.2}{Drinfeld functor for super Yangian}}{35}{subsection.7.2}%
 \contentsline {subsection}{\tocsubsection {}{7.3}{Drinfeld functor for twisted super Yangian}}{35}{subsection.7.3}%
 \contentsline {subsection}{\tocsubsection {}{7.4}{Proof of Theorem \ref {thm:Drinfeld-B}}}{37}{subsection.7.4}%

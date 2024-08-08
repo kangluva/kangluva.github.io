@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  7 JUL 2024 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.12)  8 AUG 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -201,9 +201,9 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 78.
 \cvitemwithcommentmainlength=\skip71
 \cvitemwithcommentcommentlength=\skip72
 )
-(./moderncvcolorblack.sty
-Package: moderncvcolorblack 2012/10/31 v1.2.0 modern curriculum vitae and lette
-r color scheme: black
+(./moderncvcolorblue.sty
+Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
+ color scheme: blue
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
@@ -593,7 +593,7 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 ) [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.27583pt too wide) in paragraph at lines 138--139
+Overfull \hbox (8.27583pt too wide) in paragraph at lines 140--141
 []$[]$\T1/lmr/m/n/10.95 (-20) , Weiqiang Wang, and Weinan Zhang, \T1/lmr/m/it/1
 0.95 (-20) A Drin-feld type pre-sen-ta-tion of twisted Yan-gians\T1/lmr/m/n/10.
 95 (-20) , []arXiv:2308.12254[]. 
@@ -605,16 +605,16 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
  [3] [4] [5] (./KangLu.aux)
 Package rerunfilecheck Info: File `KangLu.out' has not changed.
-(rerunfilecheck)             Checksum: A95C1B5092E4A98120F981A4363A4E19;1473.
+(rerunfilecheck)             Checksum: FF597929B7C546F435F9A35565D4C666;1677.
  ) 
 Here is how much of TeX's memory you used:
- 13471 strings out of 478268
- 222291 string characters out of 5846347
- 658746 words of memory out of 5000000
- 31267 multiletter control sequences out of 15000+600000
+ 13473 strings out of 478268
+ 222294 string characters out of 5846347
+ 658795 words of memory out of 5000000
+ 31268 multiletter control sequences out of 15000+600000
  540036 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,83p,1003b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,13n,83p,1003b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-d
@@ -635,10 +635,10 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 325001 bytes).
+Output written on KangLu.pdf (5 pages, 325565 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 34921 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 34929 words of extra memory for PDF output out of 35830 (max. 10000000)
 
